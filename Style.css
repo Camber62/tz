@@ -1,3 +1,10 @@
+:root{
+    --text_color:#4B5D68;
+    --text_color_one:#212353;
+    --bg_color:#9C69E2;
+}
+
+
 body {
     padding: 0 15%;
 }
@@ -13,7 +20,7 @@ body {
 .Rectangle32 {
     width: 20px;
     height: 20px;
-    background: #9C69E2;
+    background: var(--bg_color);
     border-radius: 20px;
     margin: 15px 5px;
 
@@ -43,14 +50,14 @@ body {
     font-weight: 800;
     font-size: 16px;
     line-height: 160%;
-    color: #212353;
+    color: var(--text_color_one);
 
 }
 
 .Help {
     text-decoration: none;
     margin-right: 25px;
-    color: #4B5D68;
+    color: var(--text_color);
     font-family: Avenir;
     font-style: normal;
     font-weight: 500;
@@ -70,7 +77,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 160%;
-    color: #4B5D68;
+    color: var(--text_color);
 }
 
 
@@ -111,7 +118,7 @@ body {
     font-weight: bold;
     font-size: 80px;
     line-height: 110%;
-    color: #212353;
+    color: var(--text_color_one);
     margin: 0;
     margin-bottom: 50px;
 }
@@ -124,14 +131,14 @@ body {
     font-weight: 500;
     font-size: 18px;
     line-height: 160%;
-    color: #4B5D68;
+    color: var(--text_color);
     margin: 0;
 }
 
 .blok_one button {
     width: 170px;
     height: 60px;
-    background: #9C69E2;
+    background: var(--bg_color);
     border-radius: 50px;
     border: none;
     margin-top: 10px;
@@ -173,7 +180,7 @@ margin: 70px 0 0 55px;
     font-size: 40px;
     line-height: 130%;
     align-items: center;
-    color: #212353;
+    color: var(--text_color_one);
     width: 475px;
     height: 100px;
     float: right;
@@ -184,7 +191,7 @@ margin: 70px 0 0 55px;
     font-weight: 500;
     font-size: 18px;
     line-height: 160%;
-    color: #4B5D68;
+    color: var(--text_color);
     width: 474px;
     height: 170px;
 }
@@ -201,7 +208,12 @@ margin: 70px 0 0 55px;
 .item1{
     width: 442px;
     height: 358px;
-    background: #9C69E2;
+    background: #68C9BA;
     opacity: 0.1;
     border-radius: 20px;
+}
+.item1 img{
+    width: 232px;
+    height: 211px;
+    order: 1;
 }
